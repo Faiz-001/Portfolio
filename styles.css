@@ -606,6 +606,10 @@ footer {
     .about-info, .contact-info {
         width: 100%;
     }
+
+    .container {
+        overflow-x: hidden;
+    }
 }
 
 @media only screen and (max-width: 540px) {
