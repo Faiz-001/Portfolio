@@ -45,6 +45,7 @@ body {
 }
 
 nav {
+    width: 100vw;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -540,7 +541,7 @@ footer {
         align-items: center;
         background: red;
         backdrop-filter: blur(20px);
-        width: 300px;
+        width: 250px;
         min-height: 450px;
         height: 90vh;
         transition: .3s;
