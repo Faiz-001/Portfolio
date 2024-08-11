@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="script.js" defer></script>
+        <title>Faiz's Portfolio Page</title>
+    </head>
+    <body>
+        <div class="conainer">
+            <nav id="header">
+                <div class="nav-logo">
+                    <p class="nav-name"><i>fiz</i>TECH</p>
+                </div>
+                <div class="nav-menu" id="myNavMenu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_list">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#about" class="nav-link">About</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#experience" class="nav-link">Experience</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#contact" class="nav-link">Contact Me</a>
+                            <div class="circle"></div>
+                        </li>
+                    </ul>   
+                </div>
+                <div class="nav-menu-btn">
+                    <i class="uil uil-bars"></i>
+                </div>
+                <a href="resume.docx" class="download" download="Faiz's Resume">Download Resume <i class="uil uil-file"></i></a> 
+            </nav>
+
+            <main class="wrapper">
+                <section class="featured-box" id="home">
+                    <div class="featured-text">
+                        <div class="featured-text-card">
+                            <div class="featured-name">
+                                <p>I'm a <span class="typedText"></span></p>
+                            </div>
+                            <div class="featured-text-info">
+                                <p>Professional frontend developer with the goal of creating visually stunning and user-friendly websites and applications.</p>
+                            </div>
+                            <div class="social_icons">
+                                <a href="www.linkedin.com/in/faizahmed2428012a5" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                                <a href="https://github.com/Faiz-001/Portfolio.git" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+                                <a href="https://www.facebook.com/profile.php?id=61561045153419&mibextid=ZbWKwL" target="_blank"><div class="icon"><i class="uil uil-facebook"></i></div></a>
+                            </div>
+                            <a href="resume.docx" class="download-two" download="Faiz's Resume">Download Resume <i class="uil uil-file"></i></a>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <div class="image">
+                            <img src="./images/profilepic.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="about-info">
+                                <h3>Introduction</h3>
+                                <p>I am a developer and designer passionate about crafting innovative solutions at the intersection of technology and creativity. With a keen eye for aesthetics and a deep understanding of programming languages and design principles, I thrive on bringing ideas to life in the digital realm.<br><br>
+                                In my development journey, I have honed my skills in various programming languages, allowing me to build robust and scalable software solutions. From creating dynamic web applications with HTML, CSS, and JavaScript to developing full Stack systems.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Skills</h3>
+                                    <div class="skills">
+                                        <p>HTML5</p>
+                                        <p>CSS3</p>
+                                        <p>JavaScript</p>
+                                        <p>React</p>
+                                        <p>Next.js</p>
+                                        <p>AngularJS</p>
+                                        <p>APIs</p>
+                                        <p>Web Development</p>
+                                        <p>Web Designer</p>
+                                        <p>UI/UX Designer</p>
+                                        <p>Communication</p>
+                                        <p>Team Work</p>
+                                        <p>Critical Thinking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section" id="experience">
+                    <div class="top-header">
+                        <h1>Experience</h1>
+                    </div>
+                    <div class="row">
+                        <div class="asset">
+                            <h3>HTML</h3>
+                            <img src="./images/htmlLogo.jpg" alt="">
+                            <p><span id="htmlYears"></span> years</p>
+                        </div>
+                        <div class="asset">
+                            <h3>CSS</h3>
+                            <img src="./images/cssLogo.png" alt="">
+                            <p><span id="cssYears"></span> years</p>
+                        </div>
+                        <div class="asset">
+                            <h3>JavaScript</h3>
+                            <img src="./images/javascriptLogo.png" alt="">
+                            <p><span id="jsYears"></span> years</p>
+                        </div>
+                        <div class="asset">
+                            <h3>React</h3>
+                            <img src="./images/reactLogo.jpg" alt="">
+                            <p><span id="reactYears"></span> years</p>
+                        </div>
+                        <!-- <div class="asset">
+                            <h3>Next.JS</h3>
+                            <img src="./images/nextLogo.png" alt="">
+                            <p><span id="nextYears">1</span> years</p>
+                        </div>
+                        <div class="asset">
+                            <h3>AngularJS</h3>
+                            <img src="./images/angularLogo.png" alt="">
+                            <p><span id="angularYears">1</span> years</p>
+                        </div> -->
+                    </div>
+                </section>
+                <section class="section" id="contact">
+                    <div class="top-header">
+                        <h1>Get in touch with me</h1>
+                        <span>Do you have a project in mind? <br> Feel free to contact me here</span>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="contact-info">
+                                <h2>Need me? <i class="uil uil-corner-right-down"></i></h2>
+                                <p><i class="uil uil-envelope"></i> Email: faizisahetudaye@gmail.com</p>
+                                <p><i class="uil uil-phone"></i> Tel: +234 912 101 2990</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <form class="form-control" action="https://formsubmit.co/faizisahetudaye@gmail.com" target="_blank" method="POST">
+                                <div class="form-inputs">
+                                    <input type="text" name="Name" class="input-field" id="name" placeholder="Full name" required>
+                                    <input type="text" name="Email" class="input-field" id="mail" placeholder="Email" required>
+                                </div>
+                                <div class="text-area">
+                                    <textarea placeholder="Message/Comment" name="Message" id="message" required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="top-footer">
+                    <p>Faiz Ahmed</p>
+                </div>
+                <div class="middle-footer">
+                    <ul class="foot-menu">
+                        <li class="footer_menu_list">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social-icons">
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    <div class="icon"><i class="uil uil-facebook"></i></div>
+                </div>
+                </div>
+                <div class="bottom-footer">
+                    <p>Copyright &copy; Faiz Ahmed - All rights reserved</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
