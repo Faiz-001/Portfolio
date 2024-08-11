@@ -540,7 +540,7 @@ footer {
         align-items: center;
         background: red;
         backdrop-filter: blur(20px);
-        width: 100%;
+        width: 300px;
         min-height: 450px;
         height: 90vh;
         transition: .3s;
