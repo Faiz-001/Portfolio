@@ -8,7 +8,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-light bg-white" id="testimonials">
+    <section className="py-20 bg-light" id="testimonials">
 
       <h2 className="text-3xl font-bold text-center text-secondary">
         Testimonials
