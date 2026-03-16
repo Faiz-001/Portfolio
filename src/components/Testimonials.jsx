@@ -8,7 +8,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-light" id="testimonials">
+    <section className="py-20 bg-light bg-white" id="testimonials">
 
       <h2 className="text-3xl font-bold text-center text-secondary">
         Testimonials
@@ -24,7 +24,7 @@ export default function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: idx * 0.2 }}
             viewport={{ once: true }}
-            className="p-6 border border-gray-800 rounded-xl bg-dark2 hover:scale-105 transition"
+            className="p-6 border border-gray-800 rounded-xl bg-dark2 hover:scale-105 transition bg-transparent"
           >
 
             <p className="text-gray-700 italic">
