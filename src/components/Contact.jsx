@@ -30,7 +30,7 @@ export default function Contact() {
     }
   };
   return (
-    <section className="py-20 bg-light px-10" id="contact">
+    <section className="py-20 bg-light px-10 bg-white" id="contact">
       <h2 className="text-3xl font-bold text-center text-secondary">Contact Us</h2>
       <div className="max-w-3xl mx-auto mt-12">
         <form action="" className="flex flex-col gap-6" onSubmit={onSubmit}>
